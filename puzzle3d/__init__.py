@@ -10,5 +10,6 @@ __version__ = "0.1.0"
 from .puzzle_generator import PuzzleGenerator
 from .slicer import PuzzleSlicer
 from .interlocking import InterlockingGenerator
+from .config import PuzzleConfig
 
-__all__ = ['PuzzleGenerator', 'PuzzleSlicer', 'InterlockingGenerator']
+__all__ = ['PuzzleGenerator', 'PuzzleSlicer', 'InterlockingGenerator', 'PuzzleConfig']
